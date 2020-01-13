@@ -1,5 +1,5 @@
 module.exports = {
-  token: ('TOKEN' in process.env ? process.env : require('../config')).TOKEN,
+  token: ('NjY1NTEwMzM5OTQwNzEyNDU2.Xhq0NQ.GOFWcGxPrQdsV6LwjPxifQjcRnw' in process.env ? process.env : require('../config')).TOKEN,
   events: [
     'guildMemberAdd',
     'guildMemberRemove',
@@ -22,7 +22,7 @@ module.exports = {
   editTimeThreshold: 0,
   guildChannelMap: {
     '258167954913361930': {
-      logChannelId: '560648403709591552',
+      logChannelId: '655348399264104451',
       ignoreChannelIds: ['649020657522180128']
     }
   }
